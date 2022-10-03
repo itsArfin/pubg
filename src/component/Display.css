@@ -1,0 +1,76 @@
+.main{
+    max-height: 50vh;
+    margin-bottom: 130px;
+    z-index: inherit;
+}
+
+.mainContent{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+}
+
+.pubgHeading{
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pubgContainer{
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.pubgDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0.75;
+}
+
+.title{
+    margin: 0px;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 140px;
+}
+
+.itemNumber{
+    color: #a1a5b0;
+    font-size: 45px;
+    
+}
+
+.ownerMail{
+    color: #a1a5b0;
+    font-size: 25px; 
+}
+
+.selectedPubg{
+    object-fit: contain;
+    margin-top: 16px;
+    border-radius: 25px;
+}
+
+.ownerLink{
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 50px;
+    height: 45px;
+    width: 40px;
+    border: 1px solid rgb(138, 133, 133);
+    margin: 10px;
+}
+
+
+.ownerLink > img{
+    height: 100%;
+    width: 100%;
+    
+}

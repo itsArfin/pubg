@@ -1,0 +1,83 @@
+.header{
+    color: white;
+    height: 100px; 
+    display:flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.header > div {
+    margin: 10px;
+}
+
+.pubgLogo{
+    width: 200px;
+    height: 100px;
+}
+
+.searchBar{
+    display: flex;
+    background-color: #171718;
+    height: 50px;
+    flex: 1;
+    border-radius: 55px;
+    align-items: center;
+}
+
+.searchIconContainer{
+    margin: 10px;
+    padding-top: 4px;
+}
+
+.searchInput{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+    color: #eee;
+    font-size: 16px;
+}
+
+.headerItems{
+display: flex;
+color: #a1a5b0;
+}
+
+.headerItems > p {    
+    margin: 10px;
+}
+
+.headerActions{
+    display: flex;
+    align-items: center;
+}
+
+.headerActions > div {
+    margin: 10px;
+}
+
+.themeSwitchIcon{
+    display: flex;
+    background-color: #171718;
+    border-radius: 50px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+.themeSwitchIcon > img {
+    height: 25px;
+}
+
+.playButton{
+    background: linear-gradient(to right, #59f9b7, #66feea);
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+.playButton:hover{
+    background: linear-gradient(to right, #59f9b679, #66feea81);
+    color: #40f709;
+}
